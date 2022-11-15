@@ -1,0 +1,93 @@
+public class Main
+{
+
+
+
+
+   public static void main(String[] args) {
+
+        String firstName;
+
+        Double balance;
+
+        int increment;
+
+         firstName="James";
+
+        double initAmount=250.0;
+
+        double deposit=50.0;
+
+        final int limit=5;
+
+         balance=initAmount;
+
+
+
+        System.out.print("Initialize Increment: ");
+
+        increment =0;
+
+
+
+
+
+        System.out.println(increment);
+
+
+
+
+
+         System.out.print("Initialize Balance: ");
+
+
+
+        System.out.println(balance);
+
+
+
+
+
+       System.out.print( "What is your first name? ");
+
+       System.out.println(firstName);
+
+
+
+        // increase step now
+
+       while(increment < limit)
+
+       {
+
+       System.out.print("After Increment ++ : ");
+
+       increment++;
+
+       balance=balance + deposit;
+
+
+
+       System.out.println(increment);
+
+       System.out.print(" Balance at this step: ");
+
+
+
+        System.out.println(balance);
+
+
+
+
+
+       System.out.print("What is your first name? ");
+
+       System.out.println(firstName);
+
+       }
+
+
+
+   }
+
+}
